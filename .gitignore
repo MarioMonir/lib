@@ -47,6 +47,10 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# This repo — TypeScript/ package: `tsc` output (`npm run build` there)
+# (Dependencies: `node_modules/` above matches TypeScript/node_modules too.)
+TypeScript/dist/
+
 # Optional npm cache directory
 .npm
 
@@ -137,3 +141,21 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains / WebStorm
+.idea/
+
+# Vim / swap
+*.swp
+*.swo
+*~

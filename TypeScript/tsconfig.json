@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "experimentalDecorators": true,
+    // Legacy field emit: initializer runs as assignment so @Emoji getter/setter on prototype applies.
+    "useDefineForClassFields": false,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts"]
+}
